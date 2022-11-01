@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:layout="clr-namespace:Maui.UniversalLayouts.Layout;assembly=Maui.UniversalLayouts"
+
+             x:Class="Demo.MainPage">
+
+    <AbsoluteLayout>
+        <layout:UniversalVerticalStackLayout BackgroundColor="Black" Spacing="8" WidthRequest="32"
+                                             AbsoluteLayout.LayoutBounds="0, 0, 1, 0.5"
+                                             AbsoluteLayout.LayoutFlags="All">
+            <BoxView Color="Red" WidthRequest="32" HeightRequest="32" VerticalOptions="Start"></BoxView>
+            <BoxView Color="DarkRed" WidthRequest="32" HeightRequest="32" VerticalOptions="Start"></BoxView>
+            <BoxView Color="Green" WidthRequest="32" HeightRequest="32" VerticalOptions="Center"></BoxView>
+            <BoxView Color="Olive" WidthRequest="32" HeightRequest="32" VerticalOptions="Center"></BoxView>
+            <BoxView Color="Blue" WidthRequest="32" HeightRequest="32" VerticalOptions="End"></BoxView>
+            <BoxView Color="CadetBlue" WidthRequest="32" HeightRequest="32" VerticalOptions="End"></BoxView>
+        </layout:UniversalVerticalStackLayout>
+        <layout:UniversalHorizontalStackLayout BackgroundColor="Black" Spacing="8" HeightRequest="32"
+                                               AbsoluteLayout.LayoutBounds="0, 0.75, 1, 0.5"
+                                               AbsoluteLayout.LayoutFlags="All">
+            <BoxView Color="Red" WidthRequest="32" HeightRequest="32" HorizontalOptions="Start"></BoxView>
+            <BoxView Color="DarkRed" WidthRequest="32" HeightRequest="32" HorizontalOptions="Start"></BoxView>
+            <BoxView Color="Green" WidthRequest="32" HeightRequest="32" HorizontalOptions="Center"></BoxView>
+            <BoxView Color="Olive" WidthRequest="32" HeightRequest="32" HorizontalOptions="Center"></BoxView>
+            <BoxView Color="Blue" WidthRequest="32" HeightRequest="32" HorizontalOptions="End"></BoxView>
+            <BoxView Color="CadetBlue" WidthRequest="32" HeightRequest="32" HorizontalOptions="End"></BoxView>
+        </layout:UniversalHorizontalStackLayout>
+    </AbsoluteLayout>
+</ContentPage>

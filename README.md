@@ -4,4 +4,5 @@ layoutoptions to child of layouts. Because Horizontal/Vertical layout doesn't su
 HorizontalOptions/VerticalOptions in their respective orientation we need to use grid or absolute layout, but these layout's don't automatically adjust location of children if there is already one
 in it's place where UniversalLayouts does.
 
-###Examples
+### Examples
+![example.png](https://github.com/zZHorizonZz/Maui.UniversalLayouts/blob/master/example.png)

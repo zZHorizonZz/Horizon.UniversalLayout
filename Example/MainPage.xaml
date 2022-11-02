@@ -1,18 +1,4 @@
-## Universal Layouts
-This projects provides 2 new types of layouts UniversalHorizontalStackLayout and UniversalVerticalStackLayout. This project is for those who sometimes want dynamically add and set
-layoutoptions to child of layouts. Because Horizontal/Vertical layout doesn't support settings of
-HorizontalOptions/VerticalOptions in their respective orientation we need to use grid or absolute layout, but these layout's don't automatically adjust location of children if there is already one
-in it's place where UniversalLayouts does.
-
-### Showcase
-![Example Image](https://github.com/zZHorizonZz/Horizon.UniversalLayout/blob/master/example.png)
-
-### Example Application
-You can find example application here [Example App](https://github.com/zZHorizonZz/Horizon.UniversalLayout/tree/master/Example)
-
-### Example Code
-```xaml
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:layout="clr-namespace:Horizon.UniversalLayout.Layout;assembly=Horizon.UniversalLayout"
@@ -41,7 +27,3 @@ You can find example application here [Example App](https://github.com/zZHorizon
         </layout:UniversalHorizontalStackLayout>
     </AbsoluteLayout>
 </ContentPage>
-```
-
-### License
-This project is under Apache 2.0 license which can be found [here](https://github.com/zZHorizonZz/Horizon.UniversalLayout/blob/master/LICENSE)

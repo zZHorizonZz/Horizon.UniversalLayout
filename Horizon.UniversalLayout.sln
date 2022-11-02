@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horizon.UniversalLayout", "Horizon.UniversalLayout\Horizon.UniversalLayout.csproj", "{E7DA7B71-3709-4ABA-8D9C-E37B7733390F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{73FD3420-DFE1-4A5E-9B68-38326A2C9A11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7DA7B71-3709-4ABA-8D9C-E37B7733390F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DA7B71-3709-4ABA-8D9C-E37B7733390F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DA7B71-3709-4ABA-8D9C-E37B7733390F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DA7B71-3709-4ABA-8D9C-E37B7733390F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FD3420-DFE1-4A5E-9B68-38326A2C9A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FD3420-DFE1-4A5E-9B68-38326A2C9A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FD3420-DFE1-4A5E-9B68-38326A2C9A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FD3420-DFE1-4A5E-9B68-38326A2C9A11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

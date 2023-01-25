@@ -1,3 +1,6 @@
+# Notice
+This repository is archived after release of [DockLayout](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/layouts/docklayout) there is no need to use this layout so rather use [MAUI Community Toolkit](https://github.com/CommunityToolkit/Maui)
+
 ## Universal Layouts
 This projects provides 2 new types of layouts UniversalHorizontalStackLayout and UniversalVerticalStackLayout. This project is for those who sometimes want dynamically add and set
 layoutoptions to child of layouts. Because Horizontal/Vertical layout doesn't support settings of
